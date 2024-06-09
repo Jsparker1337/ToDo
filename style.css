@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 5rem;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Add your styling rules here */
+.completed {
+    text-decoration: line-through;
+}
+
+.check-container {
+    position: relative;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    left: 32%;
+
+}
+
+button.removeButton {
+    position:flex;
+    margin-left: 5rem; 
+    background-color: #ff6347; /* Red color */
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    /* Add other styles as needed */
+}
+
